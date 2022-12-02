@@ -1,0 +1,187 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: #f2f2f2;
+}
+
+.card-login {
+	width: 80vw;
+	height: 80vh;
+	margin: 5vh auto;
+	padding: 1.5rem;
+	min-height: 400px;
+}
+.flower-img {
+	object-fit: cover;
+}
+
+.card-login h1 {
+	font-weight: 400;
+	font-size: 2rem;
+}
+.card-login small {
+	font-weight: 400;
+	color: #838383;
+	font-size: 1rem;
+}
+
+.form-control {
+	font-size: 1.25rem;
+	padding: 1rem;
+}
+
+.btn.btn-orange {
+	background-color: #ff8f52;
+	color: #fff;
+	/* position: relative; */
+	/* width: 100%; */
+	font-size: 1.15rem;
+	padding: 1rem;
+}
+
+.btn.btn-orange:hover {
+	background-color: #eb783b;
+}
+
+* a {
+	text-decoration: none;
+	color: unset;
+}
+* a:hover {
+	color: unset;
+}
+
+.btn a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	/* position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+}
+
+.header-part h1 {
+	font-size: 60px;
+	margin-bottom: 0.6rem;
+}
+.header-part small {
+	font-size: 20px;
+}
+.header-part .btn {
+	width: fit-content;
+	padding: 0.5rem 0.9rem;
+}
+
+.product-card {
+	padding: 1rem;
+	background-color: white;
+	border-radius: 0.3rem;
+}
+.product-card img {
+	object-fit: cover;
+}
+
+.product-card p {
+	font-size: 1.3rem;
+	margin-top: 0.5rem;
+}
+.product-card .price {
+	font-size: 1.3rem;
+	color: #838383;
+}
+.product-card button {
+	color: #ff8f52;
+	background-color: unset;
+	border: unset;
+	border-radius: .5rem;
+	transition: background-color 500ms;
+}
+.product-card .cart {
+    padding: 0.3rem;
+}
+
+.nav-link-custom {
+    color: #000;
+	transition: color 300ms;
+}
+.nav-link-custom.active {
+    color: #FF8F52;
+}
+.nav-item:hover .nav-link-custom {
+	color: #d37b4ca2;
+}
+
+.text-orange {
+    color: #FF8F52;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.navbar-nav {
+    font-size: 1.1rem;
+}
+
+.best-sellers h2 {
+	margin-top: 1rem;
+	margin-bottom: 2.5rem;
+}
+
+.x-lines::before, .x-lines::after {
+	content: "";
+	display: inline-block;
+	width: 7rem;
+	height: 2px;
+	background-color: #D9D9D9;
+	margin-bottom: .5rem;
+}
+.x-lines::after {
+	margin-left: .7rem;
+}
+
+.x-lines::before {
+	margin-right: .7rem;
+}
+
+@media (max-width: 576px) {
+	.x-lines::after, .x-lines::before {
+		width: 4rem;
+	}
+}
+
+footer {
+	background-color: #454545;
+	color: #D9D9D9;
+	padding: 3rem;
+	padding-bottom: 1rem;
+	margin-top: 5rem;
+}
+
+footer h3 {
+	color: #fff;
+}
+
+footer li {
+	padding: 0.5rem;
+}
+
+footer li a:hover {
+	color: #fff;
+}
+
+footer .row > div {
+	margin-bottom: 1rem;
+}
+
+footer p {
+	margin-top: 3rem;
+	margin-bottom: 0;
+}
+
+.product-card button:hover {
+	background-color: #ff8f522d;
+}
