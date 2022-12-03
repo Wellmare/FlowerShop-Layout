@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Profile</title>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="text-center mb-4 mt-3">Фильтры</h1>
+
+			<section>
+				<h2>Рассылки</h2>
+				<p>Подпишись, чтобы всегда узнавать о наших акциях первым</p>
+
+				<form>
+					<div class="form-check form-switch">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							role="switch"
+							id="sms"
+							checked
+						/>
+						<label class="form-check-label" for="sms">SMS</label>
+					</div>
+					<div class="form-check form-switch">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							role="switch"
+							id="email"
+						/>
+						<label class="form-check-label" for="email"
+							>E-mail</label
+						>
+					</div>
+					<div class="form-check form-switch">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							role="switch"
+							id="push"
+						/>
+						<label class="form-check-label" for="push"
+							>Push уведомления</label
+						>
+					</div>
+				</form>
+			</section>
+
+			<section>
+				<h2>Любимые категории</h2>
+				<p>Можно менять 1 раз в месяц</p>
+
+				<form>
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							id="tech"
+							disabled
+						/>
+						<label class="form-check-label" for="tech"
+							>Техника</label
+						>
+					</div>
+
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							id="appliances"
+							disabled
+						/>
+						<label class="form-check-label" for="appliances"
+							>Товары для дома</label
+						>
+					</div>
+
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="checkbox"
+							id="clotch"
+							checked
+						/>
+						<label class="form-check-label" for="clotch"
+							>Одежда</label
+						>
+					</div>
+				</form>
+			</section>
+
+			<section>
+				<h2>Адрес доставки</h2>
+
+				<form>
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="radio"
+							name="address"
+							id="Moskwa"
+						/>
+						<label class="form-check-label" for="Moskwa">
+							г. Москва
+						</label>
+					</div>
+					<div class="form-check">
+						<input
+							class="form-check-input"
+							type="radio"
+							name="address"
+							id="friday"
+							checked
+						/>
+						<label class="form-check-label" for="friday">
+							Пятничная
+						</label>
+					</div>
+				</form>
+			</section>
+
+            <section>
+                <h2>Любимый цвет</h2>
+                <form>
+                    <select class="form-select">
+                        <option value="red">Красный</option>
+                        <option value="green">Зелёный</option>
+                        <option value="blue">Синий</option>
+                    </select>
+                </form>
+            </section>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

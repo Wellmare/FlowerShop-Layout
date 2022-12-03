@@ -156,8 +156,222 @@
 				<h2 class="text-center x-lines position-relative">
 					Best sellers
 				</h2>
+
+				<div class="dropdown text-center mb-3" data-bs-display="static">
+					<button
+						type="button"
+						class="btn btn-primary dropdown-toggle"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+						data-bs-auto-close="outside"
+					>
+						Filter
+					</button>
+					<form class="dropdown-menu p-4">
+						<!-- RADIO -->
+						<section class="mb-3">
+							<h5>Сроки доставки</h5>
+							<div class="px-3">
+								<div class="form-check">
+									<input
+										class="form-check-input"
+										type="radio"
+										name="delivery"
+										id="no matter"
+										checked
+									/>
+									<label class="form-check-label" for="no matter">
+										Неважно
+									</label>
+								</div>
+								<div class="form-check">
+									<input
+										class="form-check-input"
+										type="radio"
+										name="delivery"
+										id="30m"
+									/>
+									<label class="form-check-label" for="30m">
+										От 30 минут
+									</label>
+								</div>
+								<div class="form-check">
+									<input
+										class="form-check-input"
+										type="radio"
+										name="delivery"
+										id="today"
+									/>
+									<label class="form-check-label" for="today">
+										Сегодня
+									</label>
+								</div>
+								<div class="form-check">
+									<input
+										class="form-check-input"
+										type="radio"
+										name="delivery"
+										id="2d"
+									/>
+									<label class="form-check-label" for="2d">
+										До 2 дней
+									</label>
+								</div>
+							</div>
+						</section>
+
+						<section class="mb-3">
+							<h5>Сроки доставки</h5>
+							<div class="px-3">
+								<div class="form-check">
+									<input
+										class="form-check-input"
+										type="checkbox"
+										id="product-1"
+									/>
+									<label class="form-check-label" for="product-1">
+										Какой то тип товара
+									</label>
+								</div>
+
+								<div class="form-check">
+									<input
+										class="form-check-input"
+										type="checkbox"
+										id="product-2"
+									/>
+									<label class="form-check-label" for="product-2">
+										Какой то тип товара 2
+									</label>
+								</div>
+
+								<div class="form-check">
+									<input
+										class="form-check-input"
+										type="checkbox"
+										id="product-3"
+									/>
+									<label class="form-check-label" for="product-3">
+										Бутылки
+									</label>
+								</div>
+							</div>
+						</section>
+
+						<button type="submit" class="btn btn-primary">
+							Отфильтровать
+						</button>
+					</form>
+				</div>
+
 				<div class="container">
 					<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+						<div class="col">
+							<div class="product-card">
+								<img
+									src="./assets/product 1.png"
+									alt="product 1"
+									class="w-100 product-img"
+								/>
+								<p>Daisy</p>
+								<div class="row">
+									<div class="col-6 price">5$</div>
+									<div
+										class="col-6 d-flex justify-content-center align-items-center"
+									>
+										<button
+											class="d-flex justify-content-center align-items-center"
+										>
+											<img
+												src="./assets/cart.svg"
+												alt="cart"
+												class="cart"
+											/>Add to cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="product-card">
+								<img
+									src="./assets/product 2.png"
+									alt="product 2"
+									class="w-100 product-img"
+								/>
+								<p>Sun flower</p>
+								<div class="row">
+									<div class="col-6 price">10$</div>
+									<div
+										class="col-6 d-flex justify-content-center align-items-center"
+									>
+										<button
+											class="d-flex justify-content-center align-items-center"
+										>
+											<img
+												src="./assets/cart.svg"
+												alt="cart"
+												class="cart"
+											/>Add to cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="product-card">
+								<img
+									src="./assets/product 3.png"
+									alt="product 3"
+									class="w-100 product-img"
+								/>
+								<p>White Rose</p>
+								<div class="row">
+									<div class="col-6 price">100$</div>
+									<div
+										class="col-6 d-flex justify-content-center align-items-center"
+									>
+										<button
+											class="d-flex justify-content-center align-items-center"
+										>
+											<img
+												src="./assets/cart.svg"
+												alt="cart"
+												class="cart"
+											/>Add to cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="product-card">
+								<img
+									src="./assets/product 4.png"
+									alt="product 4"
+									class="w-100 product-img"
+								/>
+								<p>Periwinkle</p>
+								<div class="row">
+									<div class="col-6 price">15$</div>
+									<div
+										class="col-6 d-flex justify-content-center align-items-center"
+									>
+										<button
+											class="d-flex justify-content-center align-items-center"
+										>
+											<img
+												src="./assets/cart.svg"
+												alt="cart"
+												class="cart"
+											/>Add to cart
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<div class="col">
 							<div class="product-card">
 								<img
@@ -277,11 +491,11 @@
 				<div class="row w-100">
 					<div class="col-12 col-md-5">
 						<p>
-							Some random stuff about flower shop and some more info
-							cuz this box had to get fill Some random stuff about
-							flower shop and some more info cuz this box had to get
-							fill Some random stuff about flower shop and some more
-							info cuz this box had to get fill
+							Some random stuff about flower shop and some more
+							info cuz this box had to get fill Some random stuff
+							about flower shop and some more info cuz this box
+							had to get fill Some random stuff about flower shop
+							and some more info cuz this box had to get fill
 						</p>
 					</div>
 					<div class="col-12 col-md-2">
@@ -296,7 +510,11 @@
 					<div class="col-12 col-md-5">
 						<h3>Contact</h3>
 						<ul class="list-unstyled">
-							<li><a href="#">26985 Brighton Lane, Lake Forest, CA</a></li>
+							<li>
+								<a href="#"
+									>26985 Brighton Lane, Lake Forest, CA</a
+								>
+							</li>
 							<li><a href="#">support@Flowers.com</a></li>
 							<li><a href="#">+1 236 5489</a></li>
 						</ul>
